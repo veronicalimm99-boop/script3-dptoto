@@ -1,0 +1,137 @@
+(function() {
+    var done = false;
+
+    function injectStyle() {
+        if (document.getElementById('rt-footer-css')) return;
+        var style = document.createElement('style');
+        style.id = 'rt-footer-css';
+        style.textContent = `
+            .homepage__footer-content--collapsed {
+                max-height: none !important;
+                height: auto !important;
+                overflow: visible !important;
+                display: block !important;
+            }
+            .homepage__footer-button {
+                display: none !important;
+            }
+            #rt-footer-content {
+                width: 100%;
+                box-sizing: border-box;
+                margin-top: 16px;
+                text-align: center;
+            }
+            .rt-section {
+                width: 100%;
+                box-sizing: border-box;
+                margin-bottom: 20px;
+            }
+            .rt-section__header {
+                display: block !important;
+                margin-bottom: 12px;
+                width: 100% !important;
+                text-align: left !important;
+            }
+            .rt-section__header img {
+                width: 35% !important;
+                height: auto !important;
+                display: inline-block !important;
+                margin: 0 !important;
+            }
+            .rt-grid {
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                gap: 10px;
+                text-align: left;
+            }
+            .rt-card {
+                border-radius: 8px;
+                overflow: hidden;
+                display: block;
+                cursor: pointer;
+                transition: transform 0.2s ease, box-shadow 0.2s ease;
+            }
+            .rt-card:hover {
+                transform: scale(1.04);
+                box-shadow: 0 0 16px rgba(0, 180, 255, 0.5);
+            }
+            .rt-card img {
+                width: 100%;
+                height: auto;
+                display: block;
+                border-radius: 8px;
+            }
+            @media (max-width: 600px) {
+                .rt-grid { grid-template-columns: repeat(2, 1fr); gap: 6px; }
+                .rt-section__header img { width: 60%; }
+            }
+        `;
+        document.head.appendChild(style);
+    }
+
+    function run() {
+        if (done) return;
+        if (document.getElementById('rt-footer-content')) { done = true; return; }
+
+        var anchor = null;
+        var all = document.querySelectorAll('h1');
+        for (var i = 0; i < all.length; i++) {
+            if (all[i].textContent.indexOf('Raintoto') !== -1) {
+                anchor = all[i];
+                break;
+            }
+        }
+        if (!anchor) return;
+
+        done = true;
+        injectStyle();
+
+        var wrap = document.createElement('div');
+        wrap.id = 'rt-footer-content';
+        wrap.innerHTML = `
+            <div class="rt-section">
+                <div class="rt-section__header">
+                    <img src="https://raintoto-hujan.b-cdn.net/raintoto/footer/live-games-gif.gif" alt="Live Games">
+                </div>
+                <div class="rt-grid">
+                    <a href="/" class="rt-card"><img src="https://raintoto-hujan.b-cdn.net/raintoto/footer/IDN%20LIVE%2024D.jpg" alt="IDN Live 24D" loading="lazy"></a>
+                    <a href="/" class="rt-card"><img src="https://raintoto-hujan.b-cdn.net/raintoto/footer/IDN%20LIVE%203D%20SHIO.jpg" alt="IDN Live 3D Shio" loading="lazy"></a>
+                    <a href="/" class="rt-card"><img src="https://raintoto-hujan.b-cdn.net/raintoto/footer/IDN%20LIVE%20BACCARAT.jpg" alt="IDN Live Baccarat" loading="lazy"></a>
+                    <a href="/" class="rt-card"><img src="https://raintoto-hujan.b-cdn.net/raintoto/footer/IDN%20LIVE%20BILLIARD.jpg" alt="IDN Live Billiard" loading="lazy"></a>
+                    <a href="/" class="rt-card"><img src="https://raintoto-hujan.b-cdn.net/raintoto/footer/IDN%20LIVE%20DRAGON%20TIGER.jpg" alt="IDN Live Dragon Tiger" loading="lazy"></a>
+                    <a href="/" class="rt-card"><img src="https://raintoto-hujan.b-cdn.net/raintoto/footer/IDN%20LIVE%20MONOPOLY.jpg" alt="IDN Live Monopoly" loading="lazy"></a>
+                    <a href="/" class="rt-card"><img src="https://raintoto-hujan.b-cdn.net/raintoto/footer/IND%20LIVE%20ROULETTE.jpg" alt="IDN Live Roulette" loading="lazy"></a>
+                </div>
+            </div>
+            <div class="rt-section">
+                <div class="rt-section__header">
+                    <img src="https://raintoto-hujan.b-cdn.net/raintoto/footer/slot-games-gif.gif" alt="Slot Games">
+                </div>
+                <div class="rt-grid">
+                    <a href="/" class="rt-card"><img src="https://raintoto-hujan.b-cdn.net/raintoto/footer/SLOTGAMES%20PRAGMATIC.jpg" alt="Pragmatic Play" loading="lazy"></a>
+                    <a href="/" class="rt-card"><img src="https://raintoto-hujan.b-cdn.net/raintoto/footer/SLOTGAMES%20PG%20SOFT.jpg" alt="PG Soft" loading="lazy"></a>
+                    <a href="/" class="rt-card"><img src="https://raintoto-hujan.b-cdn.net/raintoto/footer/SLOTGAMES%20habanero.jpg" alt="Habanero" loading="lazy"></a>
+                    <a href="/" class="rt-card"><img src="https://raintoto-hujan.b-cdn.net/raintoto/footer/SLOTGAMES%20nolimit.jpg" alt="Nolimit City" loading="lazy"></a>
+                    <a href="/" class="rt-card"><img src="https://raintoto-hujan.b-cdn.net/raintoto/footer/SLOTGAMES%20micro%20gaming.jpg" alt="Microgaming" loading="lazy"></a>
+                    <a href="/" class="rt-card"><img src="https://raintoto-hujan.b-cdn.net/raintoto/footer/SLOTGAMES%20micro%20gaming-1.jpg" alt="Microgaming 2" loading="lazy"></a>
+                    <a href="/" class="rt-card"><img src="https://raintoto-hujan.b-cdn.net/raintoto/footer/SLOTGAMES%20micro%20gaming-2.jpg" alt="Microgaming 3" loading="lazy"></a>
+                    <a href="/" class="rt-card"><img src="https://raintoto-hujan.b-cdn.net/raintoto/footer/SLOTGAMES%20gmw.jpg" alt="GMW" loading="lazy"></a>
+                </div>
+            </div>
+        `;
+
+        anchor.insertAdjacentElement('afterend', wrap);
+    }
+
+    var obs = new MutationObserver(function() {
+        if (!done) {
+            run();
+            if (done) obs.disconnect();
+        }
+    });
+    obs.observe(document.documentElement, { childList: true, subtree: true });
+
+    setTimeout(run, 1000);
+    setTimeout(run, 2500);
+    setTimeout(run, 4500);
+})();
