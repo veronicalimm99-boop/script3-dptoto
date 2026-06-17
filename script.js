@@ -76,7 +76,7 @@
         var anchor = null;
         var all = document.querySelectorAll('h1');
         for (var i = 0; i < all.length; i++) {
-            if (all[i].textContent.indexOf('Raintoto') !== -1) {
+            if (all[i].textContent.indexOf('DPTOTO') !== -1) {
                 anchor = all[i];
                 break;
             }
