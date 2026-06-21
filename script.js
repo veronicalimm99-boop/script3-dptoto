@@ -91,7 +91,7 @@
         wrap.innerHTML = `
             <div class="rt-section">
                 <div class="rt-section__header">
-                    <img src="https://raintoto-hujan.b-cdn.net/raintoto/footer/live-games-gif.gif" alt="Live Games">
+                    <img src="https://imgstorage.site/view/yuyu/livecasino.webp" alt="Live Games">
                 </div>
                 <div class="rt-grid">
                     <a href="/" class="rt-card"><img src="https://imgstorage.site/view/plotwis/idn-live-icon-24d.png" alt="IDN Live 24D" loading="lazy"></a>
