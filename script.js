@@ -108,14 +108,14 @@
                     <img src="https://raintoto-hujan.b-cdn.net/raintoto/footer/slot-games-gif.gif" alt="Slot Games">
                 </div>
                 <div class="rt-grid">
-                    <a href="/" class="rt-card"><img src="https://raintoto-hujan.b-cdn.net/raintoto/footer/SLOTGAMES%20PRAGMATIC.jpg" alt="Pragmatic Play" loading="lazy"></a>
-                    <a href="/" class="rt-card"><img src="https://raintoto-hujan.b-cdn.net/raintoto/footer/SLOTGAMES%20PG%20SOFT.jpg" alt="PG Soft" loading="lazy"></a>
-                    <a href="/" class="rt-card"><img src="https://raintoto-hujan.b-cdn.net/raintoto/footer/SLOTGAMES%20habanero.jpg" alt="Habanero" loading="lazy"></a>
-                    <a href="/" class="rt-card"><img src="https://raintoto-hujan.b-cdn.net/raintoto/footer/SLOTGAMES%20nolimit.jpg" alt="Nolimit City" loading="lazy"></a>
-                    <a href="/" class="rt-card"><img src="https://raintoto-hujan.b-cdn.net/raintoto/footer/SLOTGAMES%20micro%20gaming.jpg" alt="Microgaming" loading="lazy"></a>
-                    <a href="/" class="rt-card"><img src="https://raintoto-hujan.b-cdn.net/raintoto/footer/SLOTGAMES%20micro%20gaming-1.jpg" alt="Microgaming 2" loading="lazy"></a>
-                    <a href="/" class="rt-card"><img src="https://raintoto-hujan.b-cdn.net/raintoto/footer/SLOTGAMES%20micro%20gaming-2.jpg" alt="Microgaming 3" loading="lazy"></a>
-                    <a href="/" class="rt-card"><img src="https://raintoto-hujan.b-cdn.net/raintoto/footer/SLOTGAMES%20gmw.jpg" alt="GMW" loading="lazy"></a>
+                    <a href="/" class="rt-card"><img src="https://imgstorage.site/view/plotwis/slot-games-icon-pragmatic.png" alt="Pragmatic Play" loading="lazy"></a>
+                    <a href="/" class="rt-card"><img src="https://imgstorage.site/view/plotwis/slot-games-icon-pgsoft.png" alt="PG Soft" loading="lazy"></a>
+                    <a href="/" class="rt-card"><img src="https://imgstorage.site/view/plotwis/slot-games-icon-habanero.png" alt="Habanero" loading="lazy"></a>
+                    <a href="/" class="rt-card"><img src="https://imgstorage.site/view/plotwis/slot-games-icon-no-limit.png" alt="Nolimit City" loading="lazy"></a>
+                    <a href="/" class="rt-card"><img src="https://imgstorage.site/view/plotwis/slot-games-icon-micro-gaming.png" alt="Microgaming" loading="lazy"></a>
+                    <a href="/" class="rt-card"><img src="https://imgstorage.site/view/plotwis/slot-games-icon-toptrend.png" alt="Microgaming 2" loading="lazy"></a>
+                    <a href="/" class="rt-card"><img src="https://imgstorage.site/view/plotwis/slot-games-icon-idn-slot.png" alt="Microgaming 3" loading="lazy"></a>
+                    <a href="/" class="rt-card"><img src="https://imgstorage.site/view/plotwis/slot-games-icon-gmw.png" alt="GMW" loading="lazy"></a>
                 </div>
             </div>
         `;
