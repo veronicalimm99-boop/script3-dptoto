@@ -105,7 +105,7 @@
             </div>
             <div class="rt-section">
                 <div class="rt-section__header">
-                    <img src="https://raintoto-hujan.b-cdn.net/raintoto/footer/slot-games-gif.gif" alt="Slot Games">
+                    <img src="https://imgstorage.site/view/yuyu/slotgames.webp" alt="Slot Games">
                 </div>
                 <div class="rt-grid">
                     <a href="/" class="rt-card"><img src="https://imgstorage.site/view/plotwis/slot-games-icon-pragmatic.png" alt="Pragmatic Play" loading="lazy"></a>
