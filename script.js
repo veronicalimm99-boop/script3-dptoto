@@ -94,13 +94,13 @@
                     <img src="https://raintoto-hujan.b-cdn.net/raintoto/footer/live-games-gif.gif" alt="Live Games">
                 </div>
                 <div class="rt-grid">
-                    <a href="/" class="rt-card"><img src="https://raintoto-hujan.b-cdn.net/raintoto/footer/IDN%20LIVE%2024D.jpg" alt="IDN Live 24D" loading="lazy"></a>
-                    <a href="/" class="rt-card"><img src="https://raintoto-hujan.b-cdn.net/raintoto/footer/IDN%20LIVE%203D%20SHIO.jpg" alt="IDN Live 3D Shio" loading="lazy"></a>
-                    <a href="/" class="rt-card"><img src="https://raintoto-hujan.b-cdn.net/raintoto/footer/IDN%20LIVE%20BACCARAT.jpg" alt="IDN Live Baccarat" loading="lazy"></a>
-                    <a href="/" class="rt-card"><img src="https://raintoto-hujan.b-cdn.net/raintoto/footer/IDN%20LIVE%20BILLIARD.jpg" alt="IDN Live Billiard" loading="lazy"></a>
-                    <a href="/" class="rt-card"><img src="https://raintoto-hujan.b-cdn.net/raintoto/footer/IDN%20LIVE%20DRAGON%20TIGER.jpg" alt="IDN Live Dragon Tiger" loading="lazy"></a>
-                    <a href="/" class="rt-card"><img src="https://raintoto-hujan.b-cdn.net/raintoto/footer/IDN%20LIVE%20MONOPOLY.jpg" alt="IDN Live Monopoly" loading="lazy"></a>
-                    <a href="/" class="rt-card"><img src="https://raintoto-hujan.b-cdn.net/raintoto/footer/IND%20LIVE%20ROULETTE.jpg" alt="IDN Live Roulette" loading="lazy"></a>
+                    <a href="/" class="rt-card"><img src="https://imgstorage.site/view/plotwis/idn-live-icon-24d.png" alt="IDN Live 24D" loading="lazy"></a>
+                    <a href="/" class="rt-card"><img src="https://imgstorage.site/view/plotwis/idn-live-icon-3d-shio.png" alt="IDN Live 3D Shio" loading="lazy"></a>
+                    <a href="/" class="rt-card"><img src="https://imgstorage.site/view/plotwis/idn-live-icon-baccarat.png" alt="IDN Live Baccarat" loading="lazy"></a>
+                    <a href="/" class="rt-card"><img src="https://imgstorage.site/view/plotwis/idn-live-icon-billiard.png" alt="IDN Live Billiard" loading="lazy"></a>
+                    <a href="/" class="rt-card"><img src="https://imgstorage.site/view/plotwis/idn-live-icon-dragon-tiger.png" alt="IDN Live Dragon Tiger" loading="lazy"></a>
+                    <a href="/" class="rt-card"><img src="https://imgstorage.site/view/plotwis/idn-live-icon-monopoly.png" alt="IDN Live Monopoly" loading="lazy"></a>
+                    <a href="/" class="rt-card"><img src="https://imgstorage.site/view/plotwis/idn-live-icon-roulette.png" alt="IDN Live Roulette" loading="lazy"></a>
                 </div>
             </div>
             <div class="rt-section">
